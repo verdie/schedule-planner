@@ -1,0 +1,24 @@
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../MyriadProRegular.eot');
+    src: url('../MyriadProRegular.eot?#iefix') format('embedded-opentype'),
+         url('../MyriadProRegular.woff2') format('woff2'),
+         url('../MyriadProRegular.woff') format('woff'),
+         url('../MyriadProRegular.ttf') format('truetype'),
+         url('../MyriadProRegular.svg#din_alternateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.wrapper{
+  overflow: hidden;
+}
